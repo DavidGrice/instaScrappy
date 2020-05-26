@@ -136,7 +136,6 @@ time.sleep(5)
 wd.get('https://www.instagram.com/accounts/login/')
 time.sleep(5)
 
-
 # ## Username + password for logging into Insta
 
 instagramLogin()
@@ -144,8 +143,8 @@ instagramLogin()
 # ## Gathering all following usernames
 
 makeMainDirectory("INSTAGRAM_ACCOUNTS")
-
-getInstagramAccount('')
+instagramAccount = input(str("Please type an instagram username for me to find: "))
+getInstagramAccount(instagramAccount)
 wd.close()
 
 ## IMPROVEMENTS
