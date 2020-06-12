@@ -16,5 +16,5 @@
 2. Open powershell/terminal window and change directories to where the instaScrappy.py is located.
 3. Pip install the previously mentioned libraries.
 4. Type "python instaScrappy.py" in your terminal/powershell window and then follow the on-screen instructions.
-5. When scraping is done, run the faces_train.py to train the neural network using stored images.
-6. After training is complete run the faces.py file to see results.
+5. When scraping is done, type "python faces_train.py" to train the neural network using stored images.
+6. After training is complete type " python faces.py" to see results.
