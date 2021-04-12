@@ -11,6 +11,9 @@
 #### pip install pynput
 #### pip install opencv
 
+### Latest Chromedriver
+https://chromedriver.chromium.org/downloads
+
 ### How to run
 1. Download the repository to any folder on your device.
 2. Open powershell/terminal window and change directories to where the instaScrappy.py is located.
